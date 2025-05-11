@@ -5,9 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-// static char *font = "DejaVu Sans Mono Nerd Font Complete:size=16";
-static char *font = "DejaVuSansMono Nerd Font:pixelsize=16";
-// static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
+// static char *font = "monospace:pixelsize=16";
+static char *font = "DejaVuSansM Nerd Font:pixelsize=12";
 static char *font2[] = { "Symbola:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -125,7 +124,7 @@ static const char *colorname[] = {
 	"#a89984", // grey
     "#282828", // black
 	"#fb4934", // red
-	"#b8bb26", // green
+	"#00ee00", // green
 	"#fadb2f", // yellow
 	"#83a598", // blue
 	"#d3869b", // pink
